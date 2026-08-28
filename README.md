@@ -80,7 +80,7 @@ entrega.
 
 ## Link do Deploy na Vercel
 
-*(atualizar depois de publicar o deploy)*
+https://jovi-smart-camera-woad.vercel.app/
 
 ## Estrutura do projeto
 

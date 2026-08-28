@@ -1,0 +1,61 @@
+.qf {
+  width: 100%;
+  max-width: 700px;
+  background: #191928;
+  border: 1px solid #26263c;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+}
+
+.qf--vazio {
+  color: #9a9ab0;
+  text-align: center;
+}
+
+.qf__mensagem {
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+.qf--boa .qf__mensagem {
+  color: #7be0a0;
+}
+
+.qf--media .qf__mensagem {
+  color: #f2c14e;
+}
+
+.qf--baixa .qf__mensagem {
+  color: #ff8f8f;
+}
+
+.qf__barra {
+  margin-bottom: 12px;
+}
+
+.qf__barra-topo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #c9c9dc;
+  margin-bottom: 4px;
+}
+
+.qf__barra-trilho {
+  height: 8px;
+  border-radius: 4px;
+  background: #101018;
+  overflow: hidden;
+}
+
+.qf__barra-preenchida {
+  height: 100%;
+  background: linear-gradient(90deg, #196297, #4fb3e8);
+  transition: width 0.4s ease;
+}
+
+.qf__score {
+  margin-top: 10px;
+  font-weight: 600;
+}

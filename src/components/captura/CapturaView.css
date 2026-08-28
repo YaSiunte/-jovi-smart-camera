@@ -1,0 +1,115 @@
+.captura {
+  padding: 50px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: #131320;
+}
+
+.captura h2 {
+  color: #fff;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.captura > p {
+  text-align: center;
+  color: #c9c9dc;
+  font-size: 16px;
+  max-width: 560px;
+}
+
+.captura video {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  background: #000;
+}
+
+.captura__erro {
+  color: #ff8f8f;
+}
+
+.captura__botoes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.captura button {
+  padding: 14px 28px;
+  border: none;
+  background-color: #fff;
+  color: #131320;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+}
+
+.captura button:hover:not(:disabled) {
+  background-color: #196297;
+  color: #fff;
+}
+
+.captura button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.captura__salvar {
+  width: 100%;
+  max-width: 700px;
+  background: #191928;
+  border: 1px solid #26263c;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.captura__salvar label {
+  color: #c9c9dc;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.captura__salvar select,
+.captura__nova-materia input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #33334d;
+  background: #101018;
+  color: #fff;
+}
+
+.captura__nova-materia {
+  display: flex;
+  gap: 10px;
+}
+
+.captura__nova-materia input {
+  flex: 1;
+}
+
+.captura__nova-materia button {
+  padding: 10px 16px;
+  font-size: 13px;
+  background: #26263c;
+  color: #fff;
+}
+
+.captura__salvar-btn {
+  background: #196297 !important;
+  color: #fff !important;
+}
+
+.captura__salvar-btn:hover {
+  background: #4fb3e8 !important;
+}

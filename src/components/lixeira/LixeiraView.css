@@ -1,0 +1,74 @@
+.lixeira {
+  padding: 50px 10%;
+  background: #131320;
+  min-height: calc(100vh - 200px);
+}
+
+.lixeira h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+.lixeira__aviso {
+  color: #9a9ab0;
+  font-size: 13px;
+  margin: 8px 0 24px;
+}
+
+.lixeira__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.lixeira__item {
+  background: #191928;
+  border: 1px solid #26263c;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.lixeira__item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.lixeira__info {
+  padding: 12px;
+}
+
+.lixeira__materia {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.lixeira__prazo {
+  color: #f2c14e;
+  font-size: 12px;
+  margin: 4px 0 10px;
+}
+
+.lixeira__acoes {
+  display: flex;
+  gap: 8px;
+}
+
+.lixeira__acoes button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #33334d;
+  background: #101018;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.lixeira__excluir {
+  border-color: #e35d5d !important;
+  color: #ff8f8f !important;
+}

@@ -1,0 +1,92 @@
+.materias {
+  padding: 50px 10%;
+  background: #131320;
+  min-height: calc(100vh - 200px);
+}
+
+.materias h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.materias__busca {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #33334d;
+  background: #191928;
+  color: #fff;
+  margin-bottom: 24px;
+  display: block;
+}
+
+.materias__folders {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.materias__folder {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid #33334d;
+  background: #191928;
+  transition: 0.2s;
+  overflow: hidden;
+}
+
+.materias__folder:hover {
+  border-color: #196297;
+}
+
+.materias__folder--ativa {
+  background: #196297;
+  border-color: #196297;
+}
+
+.materias__folder-nome {
+  padding: 10px 6px 10px 18px;
+  border: none;
+  background: transparent;
+  color: #c9c9dc;
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+  font-size: 13px;
+}
+
+.materias__folder--ativa .materias__folder-nome {
+  color: #fff;
+}
+
+.materias__folder-remover {
+  padding: 4px 14px 4px 8px;
+  border: none;
+  background: transparent;
+  color: #6a6a80;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.materias__folder-remover:hover {
+  color: #ff8f8f;
+}
+
+.materias__folder--ativa .materias__folder-remover {
+  color: #dce8f5;
+}
+
+.materias__folder--ativa .materias__folder-remover:hover {
+  color: #ffd3d3;
+}
+
+.materias__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 18px;
+}

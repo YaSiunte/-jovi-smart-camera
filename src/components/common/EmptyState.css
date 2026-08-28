@@ -1,0 +1,18 @@
+.empty-state {
+  width: 100%;
+  padding: 50px 20px;
+  text-align: center;
+  color: #8888a0;
+  border: 1px dashed #33334d;
+  border-radius: 12px;
+}
+
+.empty-state__titulo {
+  color: #c9c9dc;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.empty-state__mensagem {
+  font-size: 13px;
+}

@@ -1,0 +1,73 @@
+.photo-modal__fundo {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 6, 12, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 100;
+}
+
+.photo-modal__caixa {
+  background: #191928;
+  border-radius: 14px;
+  overflow: hidden;
+  max-width: 720px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.photo-modal__caixa img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-modal__info {
+  padding: 24px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.photo-modal__qualidade--boa {
+  color: #7be0a0;
+}
+
+.photo-modal__qualidade--media {
+  color: #f2c14e;
+}
+
+.photo-modal__qualidade--baixa {
+  color: #ff8f8f;
+}
+
+.photo-modal__acoes {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.photo-modal__acoes button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #33334d;
+  background: #101018;
+  color: #fff;
+  cursor: pointer;
+}
+
+.photo-modal__excluir {
+  border-color: #e35d5d !important;
+  color: #ff8f8f !important;
+}
+
+@media (max-width: 600px) {
+  .photo-modal__caixa {
+    grid-template-columns: 1fr;
+  }
+}
